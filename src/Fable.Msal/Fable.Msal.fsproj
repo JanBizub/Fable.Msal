@@ -7,6 +7,8 @@
     <Title>Fable.Msal</Title>
     <Authors>jan.bizub@outlook.com</Authors>
     <Description>Fable Bindings for @azure/msal-browser</Description>
+    <PackageProjectUrl>https://github.com/JanBizub/Fable.Msal</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/JanBizub/Fable.Msal</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
