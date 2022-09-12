@@ -1,9 +1,9 @@
 # Fable.Msal
 Fable bindings for [@azure/msal-browser](https://www.npmjs.com/package/@azure/msal-browser#msal-basics)
 
-Warning: bindings does not include all functionality.
+WARNING: bindings does not include all functionality.
 
-Create Azure App Registration for client. Pick SPA and reply url = https://localhost:3030
+Create Azure App Registration for client. Pick SPA and reply url = https://localhost:3030/
 (optional) Create Azure App Registration for Server.
 
 To test client application, provide it with cliend id and tenant id in Main.fs
