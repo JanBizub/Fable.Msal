@@ -1,0 +1,30 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "dotnet fable watch --outDir web/build --run webpack-dev-server --mode development --https",
+    "build": "dotnet fable --outDir web/build --run webpack --mode production"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^10.0.0",
+    "css-loader": "^6.5.1",
+    "file-loader": "^6.2.0",
+    "babel-loader": "^8.2.5",
+    "@babel/preset-react": "^7.16.7",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.4.5",
+    "remotedev": "^0.2.9",
+    "sass": "^1.43.4",
+    "sass-loader": "^12.3.0",
+    "source-map-loader": "^3.0.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.64.2",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.5.0"
+  },
+  "dependencies": {
+    "@azure/msal-browser": "^2.28.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "remotedev": "^0.2.9"
+  }
+}
